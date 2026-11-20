@@ -14,8 +14,8 @@ public class Friends {
        friends.add(new Name("Andy","Rothstein"));
    }
    
-   public Name printRandomFriend(){
-       return friends.get(r.nextInt(3));
+   public Name getRandomFriend(){
+       return friends.get(r.nextInt(friends.size()));
     }
    
   
